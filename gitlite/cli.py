@@ -1,4 +1,6 @@
 import argparse
+import os
+from . import data
 
 def main():
     user_argument = parse_arguments()
@@ -19,4 +21,5 @@ def parse_arguments():
 
 
 def init(args: any):
-    print("Hello from init")
+    data.init() # calls the init function from data.py
+    print(f'Initialized  empty gitlite repository in {os.path.join(os.getcwd(), data.GIT_DIR)}')
