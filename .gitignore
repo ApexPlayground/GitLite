@@ -1,0 +1,55 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Testing and coverage files
+*.cover
+*.coverage
+*.hypothesis/
+*.tox/
+.nox/
+.coverage.*
+nosetests.xml
+coverage.xml
+*.log
+
+# PyInstaller
+#  PyInstaller creates a lot of files in the build/ folder
+#  See https://pyinstaller.readthedocs.io/en/stable/usage.html#cleaning-up
+build/
+dist/
+
+# macOS Finder
+.DS_Store
+
+# Windows image file thumbs
+Thumbs.db
+
+# Pyenv
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
